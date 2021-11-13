@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Spinner } from 'react-bootstrap';
 import Car from '../../Explore/Car/Car';
 
 const FeaturedCar = () => {
@@ -15,7 +15,13 @@ const FeaturedCar = () => {
         <h1>Most Featured Cars in The World in 2021</h1>
         <h6 className="text-warning">Featured Cars</h6>
       <Row xs={1} md={3} className="g-4">
-        {cars.slice(0,6).map((car) => (
+        {
+         cars.length===0 ? 
+         <div className="d-flex justify-content-center">
+           <Spinner animation="border" />
+         </div>
+         :
+        cars.slice(0,6).map((car) => (
           <Car key={cars._id} car={car}></Car>
         ))}
       </Row>
