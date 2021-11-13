@@ -19,6 +19,9 @@ const AddProducts = () => {
     return (
     <div className="bg-dark py-4">
     <h2 className="text-white">ADD CAR DETAIL</h2>
+    
+     {/* Car add */}
+
       <form  onSubmit={handleSubmit(onSubmit)}>
           <Row>
               <Col className="mb-2" xs={12}md={12}>

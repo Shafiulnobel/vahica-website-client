@@ -19,6 +19,7 @@ const Review = () => {
         };
     const{user}=useAuth();
     return (
+        // review section
         <div>
             <h2>Please give us your valuable <span className="text-warning">Feedback!</span></h2>
             <form className="bg-dark py-4" onSubmit={handleSubmit(onSubmit)}>

@@ -32,7 +32,11 @@ const CarDetail = () => {
     const rating = parseFloat(details?.rating)
     return (
         <div>
+          {/* Header */}
             <Header></Header>
+
+            {/* car detail here */}
+
             <div className="card bg-light text-dark mb-1">
         <img style={{filter: 'blur(2px)'}} height="450" src={banner} alt="..." />
         <div className="card-img-overlay text-center text-white d-flex align-items-center justify-content-center">
@@ -187,6 +191,9 @@ const CarDetail = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      
             <Footer></Footer>
         </div>
     );

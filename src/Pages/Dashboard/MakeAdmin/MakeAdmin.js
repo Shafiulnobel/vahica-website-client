@@ -29,6 +29,7 @@ const MakeAdmin = () => {
         e.preventDefault();
     };
     return (
+        // Make Admin
 <div className="bg-black py-5">
  <h2 className="text-white">Make <span className="text-warning">Admin</span></h2>
     <form onSubmit={handleOnSubmit}>

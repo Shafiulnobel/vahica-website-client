@@ -4,7 +4,7 @@ import { Button,Card, Col, Container, Row, Spinner } from 'react-bootstrap';
 
 
 const ManageProducts = () => {
- 
+    // manage product (admin)
     const [cars, setCars] = useState([]);
    useEffect(() => {
     fetch("https://nameless-reaches-52059.herokuapp.com/cars")

@@ -4,7 +4,8 @@ import { Container, Row, Spinner,Button, Card, Col, } from 'react-bootstrap';
 
 
 const ManageAllOrders = () => {
-  
+
+  // manage all order(admin)
     const[orders,setOrders]=useState([]);
     const[isUpdate,setIsUpdate]=useState(null);
     useEffect(()=>{

@@ -12,7 +12,7 @@ const UserReview = () => {
     },[])
 
     const rate = parseFloat(reviews?.rating)
-    console.log(rate)
+ 
     return (
     
         <div className="py-3">
