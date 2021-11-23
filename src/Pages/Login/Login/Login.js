@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Alert, Button, Col, Form, Row, Spinner } from 'react-bootstrap';
+import {Alert, Button, Col, Container, Form, Row, Spinner } from 'react-bootstrap';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
 import google from '../../../images/google.png'
@@ -28,7 +28,8 @@ const Login = () => {
     return (
         <div>
             <Header></Header>
-            
+           <Container> 
+          
             <Row className="d-flex align-items-center">
                 <Col xs={12} md={6}>
                 <div className="py-5" style={{backgroundColor:'#f2f5fb'}}>
@@ -81,7 +82,7 @@ const Login = () => {
                 <img className="img-fluid w-75" src={img} alt="" />
                 </Col>
             </Row>
-          
+            </Container> 
           
            
             <Footer></Footer>
