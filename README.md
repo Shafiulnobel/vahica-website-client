@@ -4,6 +4,8 @@ This project link is in there [click here](https://vehica-b9911.web.app/).
 
 ## Importent Notes
 * Features:html,css,javascript,react-js,bootstrap,react router,firebase,mongoDb.
+* A car management system website
+* There is a dashboard for both admin and users.
 * service details:This is a website where you can see can see the car and purchange the car you want.
 * users can see thier order. 
 * users can delete thier orders too.
